@@ -1,0 +1,23 @@
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    background: #c3e8b7;
+    border: 2px solid #82b482;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+button:hover {
+    border: none;
+}
+button:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
